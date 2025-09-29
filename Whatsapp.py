@@ -63,7 +63,7 @@ Builder.load_string("""
 								text: "Meta AI"
 								secondary_text: "Here are the rgba values of black color"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0008.jpg"
+									source: "assets/IMG-20250812-WA0008.jpg"
 									on_release: app.show_profile(self.source , item1.text)
 							
 							TwoLineAvatarIconListItem:
@@ -72,7 +72,7 @@ Builder.load_string("""
 								text: "Chat-GPT"
 								secondary_text: "How can i help you today ?"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0011.jpg"
+									source: "assets/IMG-20250812-WA0011.jpg"
 									on_release: app.show_profile(self.source , item11.text)
 							
 							TwoLineAvatarIconListItem:
@@ -81,7 +81,7 @@ Builder.load_string("""
 								text: "AI Assistant"
 								secondary_text: "How can I help you"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0006.jpg"
+									source: "assets/IMG-20250812-WA0006.jpg"
 									on_release: app.show_profile(self.source , item2.text)
 							TwoLineAvatarIconListItem:
 								on_release: app.open_chat_screen(self.text)
@@ -101,7 +101,7 @@ Builder.load_string("""
 								text: "Mark Rober"
 								secondary_text: "● Missed Voice Call"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0009.jpg"
+									source: "assets/IMG-20250812-WA0009.jpg"
 									on_release: app.show_profile(self.source , item3.text)
 							TwoLineAvatarIconListItem:
 								id: item4
@@ -109,7 +109,7 @@ Builder.load_string("""
 								text: "Mr Beast"
 								secondary_text: "Win 1,000,000 dollars"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0007.jpg"
+									source: "assets/IMG-20250812-WA0007.jpg"
 									on_release: app.show_profile(self.source , item4.text)
 							TwoLineAvatarIconListItem:
 								on_release: app.open_chat_screen(self.text)
@@ -133,7 +133,7 @@ Builder.load_string("""
 				md_bg_color: app.theme_cls.primary_color
 			
 			MDFloatingActionButton:
-				icon: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0008.jpg"
+				icon: "assets/IMG-20250812-WA0008.jpg"
 				pos_hint: {"center_x": .9, "top": .18}
 				icon_size: "30sp"
 				md_bg_color: "#333333"
@@ -213,10 +213,10 @@ Builder.load_string("""
 									radius: 30
 									FloatLayout:
 										FitImage:
-											source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0010.jpg"
+											source: "assets/IMG-20250812-WA0010.jpg"
 											pos_hint: {"center_x": .5, "top":1}
 										MDIconButton:
-											icon: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0009.jpg"
+											icon: "assets/IMG-20250812-WA0009.jpg"
 											pos_hint: {"center_y": .85, "center_x": .3}
 											icon_size: "30sp"
 										MDLabel:
@@ -231,10 +231,10 @@ Builder.load_string("""
 									radius: 30
 									FloatLayout:
 										FitImage:
-											source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0004.jpg"
+											source: "assets/IMG-20250812-WA0004.jpg"
 											pos_hint: {"center_x": .5, "top": 1}
 										MDIconButton:
-											icon: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0007.jpg"
+											icon: "assets/IMG-20250812-WA0007.jpg"
 											pos_hint: {"center_y": .85, "center_x": .3}
 											icon_size: "30sp"
 										MDLabel:
@@ -298,7 +298,7 @@ Builder.load_string("""
 								text: "BTS | RM,Namjoon Jin,Kim Taehyung"
 								secondary_text: "BTS Playlist is live on Spotify, and we need"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0014.jpg"
+									source: "assets/IMG-20250812-WA0014.jpg"
 									on_release: app.show_profile(self.source , channel1.text)
 							
 							TwoLineAvatarIconListItem:
@@ -306,7 +306,7 @@ Builder.load_string("""
 								text: "Kim Taehyung"
 								secondary_text: "Photo ■ "
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0016.jpg"
+									source: "assets/IMG-20250812-WA0016.jpg"
 									on_release: app.show_profile(self.source , channel2.text)
 							
 							TwoLineAvatarIconListItem:
@@ -314,7 +314,7 @@ Builder.load_string("""
 								text: "Jin"
 								secondary_text: "BTS Playlist is live on Spotify, and we need"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0013.jpg"
+									source: "assets/IMG-20250812-WA0013.jpg"
 									on_release: app.show_profile(self.source , channel3.text)
 							
 							TwoLineAvatarIconListItem:
@@ -322,15 +322,15 @@ Builder.load_string("""
 								text: "jhope"
 								secondary_text: "BTS Playlist is live on Spotify, and we need"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0012.jpg"
+									source: "assets/IMG-20250812-WA0012.jpg"
 									on_release: app.show_profile(self.source , channel4.text)
 							
 							TwoLineAvatarIconListItem:
 								id: channel5
 								text: "SUGA"
-								secondary_text: "BTS Playlist is live on Ppotify, and we need"
+								secondary_text: "BTS Playlist is live on Spotify, and we need"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0005.jpg"
+									source: "assets/IMG-20250812-WA0005.jpg"
 									on_release: app.show_profile(self.source , channel5.text)
 			
 			MDFloatingActionButton:
@@ -365,7 +365,7 @@ Builder.load_string("""
 				pos_hint: {"top": .92}
 				
 				FitImage:
-					source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0017.jpg"
+					source: "assets/IMG-20250812-WA0017.jpg"
 					pos_hint: {"center_x": .5, "top": .9}
 					size_hint: 1, .3
 					allow_stretch: True
@@ -446,28 +446,28 @@ Builder.load_string("""
 								text: "Mr Beast"
 								secondary_text: "15 March, 3:44 pm"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0007.jpg"
+									source: "assets/IMG-20250812-WA0007.jpg"
 								IconRightWidget:
 									icon: "phone"
 							TwoLineAvatarIconListItem:
 								text: "Mark Rober"
 								secondary_text: "17 March, 1:30 pm"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0009.jpg"
+									source: "assets/IMG-20250812-WA0009.jpg"
 								IconRightWidget:
 									icon: "phone"
 							TwoLineAvatarIconListItem:
 								text: "Kim Taehyung"
 								secondary_text: "22 March, 4:00 pm"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0016.jpg"
+									source: "assets/IMG-20250812-WA0016.jpg"
 								IconRightWidget:
 									icon: "phone"
 							TwoLineAvatarIconListItem:
 								text: "Jin"
 								secondary_text: "21 March, 3:55 pm"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0013.jpg"
+									source: "assets/IMG-20250812-WA0013.jpg"
 								IconRightWidget:
 									icon: "phone"
 							TwoLineAvatarIconListItem:
@@ -481,7 +481,7 @@ Builder.load_string("""
 								text: "jhope"
 								secondary_text: "25 March, 11:24 am"
 								ImageLeftWidget:
-									source: "C:/Users/NAVJOT SINGH/Pictures/Saved Pictures/IMG-20250812-WA0012.jpg"
+									source: "assets/IMG-20250812-WA0012.jpg"
 								IconRightWidget:
 									icon: "phone"
 			
