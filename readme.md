@@ -1,4 +1,4 @@
-A **pixel-perfect WhatsApp UI clone** built with Python and KivyMD, replicating the modern WhatsApp experience with stunning accuracy and smooth animations.
+A **pixel-perfect WhatsApp UI clone** built with Python and KivyMD, replicating the modern WhatsApp experience with stunning accuracy and smooth animations made entirely on mobile with no access to Desktop/Laptop .
 
 
 
